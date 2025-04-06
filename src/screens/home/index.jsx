@@ -320,6 +320,19 @@ export default function Home() {
           />
         ))}
       </DndContext>
+      <footer style={{
+        position:"absolute",
+        bottom:"0",
+        display:"flex",
+        justifyContent:"center",
+        backgroundColor:"transparent",
+        color:"white",
+        width: "-webkit-fill-available"
+      }}>
+        <div className="">
+          <p>&copy; 2025 Ghanshyam Patidar | Dinkar Dubey | Anurag Arkey</p>
+        </div>
+      </footer>
     </>
   );
 }
